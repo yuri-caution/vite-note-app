@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: noen;
+    color:  inherit;
+}
+
+button {
+    padding: 16px;
+}
+
+.App {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 16px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.list li {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+.list h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.list li p {
+    min-height: 160px;
+}
+
+.extra {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666;
+    font-size: 13px;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
