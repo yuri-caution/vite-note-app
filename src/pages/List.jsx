@@ -1,28 +1,3 @@
-# vite-not-app
-
-### firebase fisrstor setting
-
-
-# react 문형
-```
-import React, { useState } from 'react'
-
-
-export default function List() {
-    const [count,setCount] = useState(0)
-
-
-  return (
-    <div>
-        <p>Hello</p>
-    </div>
-  )
-}
-
-```
-
-## 실시간 데이터 불러오기(업데이트)
-```
 import { db } from '../firebase'
 import { collection, query, where, onSnapshot } from "firebase/firestore";
 import { useEffect, useState } from "react";
@@ -69,4 +44,3 @@ export default function List() {
 
   )
 }
-```
