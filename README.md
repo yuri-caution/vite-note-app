@@ -70,3 +70,18 @@ export default function List() {
   )
 }
 ```
+
+
+### 비동기 함수
+####async-await 세트는 규칙
+```  async function wirteNote(e){
+    e.preventDefault()
+    console.log(titleRef.current.value)
+    console.log(contentRef.current.value)
+
+    // Add a new document with a generated id
+    const newCityRef = doc(collection(db, "cities"));
+
+    // later...
+    await setDoc(newCityRef, data);
+    ```

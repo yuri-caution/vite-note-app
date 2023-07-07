@@ -7,7 +7,6 @@ import Write from './pages/write'
 import Edit from './pages/edit'
 
 export default function App() {
-  console.log(db)
   return (
     <BrowserRouter>
     <div className="App">
